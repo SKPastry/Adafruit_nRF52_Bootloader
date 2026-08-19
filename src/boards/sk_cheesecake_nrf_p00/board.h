@@ -25,7 +25,7 @@
 #ifndef _SK_CHEESECAKE_NRF_P00_H
 #define _SK_CHEESECAKE_NRF_P00_H
 
-#define UICR_REGOUT0_VALUE UICR_REGOUT0_VOUT_3V3
+#define UICR_REGOUT0_VALUE UICR_REGOUT0_VOUT_2V7
 
 /*------------------------------------------------------------------*/
 /* LED
