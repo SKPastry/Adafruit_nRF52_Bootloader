@@ -48,7 +48,7 @@
 /* Power safety pins
  *------------------------------------------------------------------*/
 #define SYSOFF_PIN  PINNUM(1, 13)
-#define PWR_LSM_PIN PINNUM(0, 12)
+#define PWR_LSM_PIN PINNUM(0, 14)
 #define HEAT_EN_PIN PINNUM(0, 31)
 #define ECLK_EN_PIN PINNUM(1, 11)
 
