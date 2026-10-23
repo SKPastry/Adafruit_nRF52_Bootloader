@@ -73,7 +73,7 @@ jobs:
       run: |
         pip3 install uritemplate requests intelhex setuptools
         # Install the new standalone nrfutil
-        wget -q https://developer.nordicsemi.com/.pc-tools/nrfutil/x64-linux/nrfutil -O nrfutil
+        wget --no-verbose https://files.nordicsemi.com/artifactory/swtools/external/nrfutil/executables/x86_64-unknown-linux-gnu/nrfutil -O nrfutil
         chmod +x nrfutil
         sudo mv nrfutil /usr/local/bin/
         nrfutil --version
